@@ -1,0 +1,44 @@
+.card_outer-wrap {
+    padding: .5rem;
+    margin: 2rem;
+    background-color: rgb(253, 250, 250);
+    border-radius: .75rem;
+    box-shadow: 1px 1px 5px 1px rgba(171,164,245,0.75);
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(171,164,245,0.75);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(171,164,245,0.75);
+}
+.card_wrapper {
+    max-width: 328px;
+    max-height: 186px;
+    padding: .5rem;
+    background-color:#cee0f0;
+    border-radius: .75rem;
+    background-image: url('../assests/background-images/undraw_Happy_birthday_re_c16u.svg');
+    background-size: 8rem;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+.card_body {
+    
+    display: flex;
+}
+.card_message {
+    text-align: center;
+    font-size: .8rem;
+    padding: .2rem;
+}
+.card_avatar {
+    border-radius: .75rem;
+}
+.card_bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+.card_bottom-link {
+    text-decoration: none;
+    font-size: .75rem;
+    padding: .75rem .5rem 0.25rem .5rem;
+}
+.card_bottom-link :hover {
+    cursor: pointer;
+}
